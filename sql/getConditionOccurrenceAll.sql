@@ -1,0 +1,1 @@
+select cond.* from ohdsi.condition_occurrence cond join ohdsi.cohort co on  cond.person_id=co.subject_id where co.cohort_definition_id=:cohortId;

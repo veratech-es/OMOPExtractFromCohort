@@ -1,0 +1,1 @@
+select m.* from ohdsi.measurement m join ohdsi.cohort co on  m.person_id=co.subject_id where co.cohort_definition_id=:cohortId;

@@ -1,0 +1,1 @@
+select de.* from ohdsi.drug_exposure de join ohdsi.cohort co on  de.person_id=co.subject_id where co.cohort_definition_id=:cohortId;

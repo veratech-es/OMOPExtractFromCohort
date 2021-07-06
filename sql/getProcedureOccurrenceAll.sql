@@ -1,0 +1,1 @@
+select po.* from ohdsi.procedure_occurrence po join ohdsi.cohort co on  po.person_id=co.subject_id where co.cohort_definition_id=:cohortId;

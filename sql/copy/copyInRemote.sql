@@ -1,0 +1,1 @@
+COPY (*query*) TO 'C:\tmp\query.csv' DELIMITER ',' CSV HEADER;

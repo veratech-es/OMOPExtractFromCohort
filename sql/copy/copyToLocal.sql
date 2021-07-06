@@ -1,0 +1,1 @@
+\copy (*query*) to 'C:\tmp\query.csv' with csv
